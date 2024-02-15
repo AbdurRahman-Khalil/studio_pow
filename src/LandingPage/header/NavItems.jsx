@@ -18,7 +18,7 @@ const NavItems = ({ showNav, setHamburger, destination1, navItem1, destination2,
 
 
     return (
-        <ul className={`max-[767px]:fixed top-0 ${showNav} bottom-0 duration-500 bg-white/5 backdrop-blur-2xl flex flex-col justify-center gap-y-12 max-[767px]:p-16 max-[767px]:h-screen 
+        <ul className={`max-[767px]:fixed top-0 ${showNav} bottom-0 duration-500 bg-white/5 md:backdrop-blur-2xl flex flex-col justify-center gap-y-12 max-[767px]:p-16 max-[767px]:h-screen 
             md:flex md:flex-row md:gap-x-6 md:bg-transparent min-[980px]:mr-20 max-[767px]:border-l-2 border-white/20`}>
 
             <IoClose className='block mb-6 text-4xl text-white duration-300 border-2 rounded-md border-white/40 bg-white/10 md:hidden'
