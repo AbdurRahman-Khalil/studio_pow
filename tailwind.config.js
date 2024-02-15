@@ -11,7 +11,7 @@ export default {
         montserrat: ["Montserrat", "sans-serif"]
       },
       backgroundImage: {
-        "hero-img": "url('./src/LandingPage/main/images/hero_image.png')",
+        "hero-img": "url('./src/LandingPage/main/images/hero_image.webp')",
         "about-img": "url('./src/LandingPage/main/images/about_image.webp')"
       }
     },
