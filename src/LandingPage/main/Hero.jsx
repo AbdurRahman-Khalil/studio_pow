@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero = ({ heroText, heroHeading1, heroHeading2, heroHeading3, heroHeading4, heroHeading5, heroHeading6, heroBtnText }) => {
     return (
-        <section id="home" className="bg-hero-img h-[fit-content] bg-cover bg-center flex justify-center items-center max-[280px]:px-3 px-5">
-            <div className="text-white text-center my-52">
+        <section id="home" className="bg-[url('./src/LandingPage/main/images/hero_image.webp')] h-[fit-content] bg-cover bg-center flex justify-center items-center max-[280px]:px-3 px-5">
+            <div className="text-center text-white my-52">
                 <p className="mt-2 mb-3 font-medium max-[319px]:text-sm min-[625px]:text-lg">{heroText}</p>
                 <h1 className="max-[319px]:text-4xl text-5xl min-[1175px]:text-6xl mb-7">
                     {heroHeading1} <span className="font-extrabold">{heroHeading2}</span> {heroHeading3}<br />
