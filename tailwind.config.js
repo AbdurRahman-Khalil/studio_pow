@@ -12,7 +12,7 @@ export default {
       },
       backgroundImage: {
         "about-img": "url('./src/LandingPage/main/images/about_image.webp')",
-        "newsletter-img": "url('./src/LandingPage/main/images/newsletter_image.jpg')"
+        "newsletter-img": "url('./src/LandingPage/main/images/newsletter_image.webp')"
       }
     },
   },
