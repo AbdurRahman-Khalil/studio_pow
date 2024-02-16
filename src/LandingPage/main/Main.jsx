@@ -3,6 +3,7 @@ import React from "react";
 import Hero from './Hero';
 import About from './About';
 import Projects from './projects/Projects';
+import NewsLetter from "./NewsLetter";
 
 
 const Main = () => {
@@ -44,6 +45,13 @@ const Main = () => {
                 projectsHeading1={"RECENT"}
                 projectsHeading2={"OUR FILMS"}
             />
+
+            <NewsLetter
+                newsLetterHeading={"SIGNUP NEWSLETTER"}
+                newsLetterPara={"Subscribe to receive our monthly newsletter and updates about Purpose Forward"}
+                placeholderText={"Enter your email here"}
+            />
+
         </main>
     );
 }

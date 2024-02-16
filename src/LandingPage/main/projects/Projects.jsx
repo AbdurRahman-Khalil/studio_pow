@@ -18,8 +18,8 @@ const Projects = ({ projectsHeading1, projectsHeading2 }) => {
 
 
     return (
-        <section id="projects" className="text-center bg-black text-white px-5 min-[300px]:px-6 sm:px-12 md:px-18 lg:px-20 pt-20 pb-8">
-            <p className="text-blue-400 text-lg font-medium">{projectsHeading1}</p>
+        <section id="projects" className="text-center text-white px-5 min-[300px]:px-6 sm:px-12 md:px-18 lg:px-20 pt-20 pb-8">
+            <p className="text-lg font-medium text-sky-400">{projectsHeading1}</p>
             <h1 className="mb-10 text-4xl font-bold">{projectsHeading2}</h1>
             <div className="relative flex items-center">
                 <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100 max-[768px]:hidden' onClick={slideLeft} size={40} />
