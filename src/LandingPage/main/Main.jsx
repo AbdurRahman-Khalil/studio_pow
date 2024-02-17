@@ -48,7 +48,7 @@ const Main = () => {
 
             <NewsLetter
                 newsLetterHeading={"SIGNUP NEWSLETTER"}
-                newsLetterPara={"Subscribe to receive our monthly newsletter and updates about Purpose Forward"}
+                newsLetterPara={"Subscribe to receive our monthly newsletter and updates about Purpose Forward."}
                 placeholderText={"Enter your email here"}
             />
 

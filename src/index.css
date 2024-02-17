@@ -9,3 +9,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    #home {
+        background-image: url(./LandingPage/main/images/hero_image.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #newsletter {
+        background-image: url(./LandingPage/main/images/newsletter_image.webp);
+        background-size: cover;
+        background-position: center;
+    }
+}
