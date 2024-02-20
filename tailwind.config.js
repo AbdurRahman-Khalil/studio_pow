@@ -9,15 +9,12 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"]
-      },
-      backgroundImage: {
-        "about-img": "url('./src/LandingPage/main/images/about_image.webp')",
-        "newsletter-img": "url('./src/LandingPage/main/images/newsletter_image.webp')"
       }
-    },
+    }
   },
   plugins: [
-    require('tailwind-scrollbar-hide')
+    require('tailwind-scrollbar-hide'),
+    require('tailwind-scrollbar')({ preferredStrategy: 'pseudoelements' })
   ],
 }
 

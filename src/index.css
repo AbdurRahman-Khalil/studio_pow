@@ -15,12 +15,35 @@
     #home {
         background-image: url(./LandingPage/main/images/hero_image.webp);
         background-size: cover;
-        background-position: center;
+        background-attachment: fixed;
     }
-    
+
     #newsletter {
         background-image: url(./LandingPage/main/images/newsletter_image.webp);
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
+    }
+
+    /* desgining scrollbar */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: hsl(0, 0%, 0%);        
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: hsl(202, 73%, 75%);
+        border-radius: 5px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: hsl(202, 73%, 83%);
     }
 }

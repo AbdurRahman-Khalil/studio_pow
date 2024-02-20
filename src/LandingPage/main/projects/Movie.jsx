@@ -15,10 +15,10 @@ const Movie = () => {
                                 src={item.img}
                                 alt="poster of the movie"
                             />
-                            <div className='absolute bottom-0 w-full h-full flex flex-col justify-center items-center backdrop-blur-xl p-1 opacity-0 hover:opacity-100 duration-500 border-2 border-white/20 cursor-pointer'>
-                                <h1 className='text-white text-4xl text-wrap font-medium mb-4'>{item.title}</h1>
+                            <div className='absolute bottom-0 flex flex-col items-center justify-center w-full h-full p-1 duration-500 border-2 opacity-0 cursor-pointer text-wrap backdrop-blur-xl hover:opacity-100 border-white/20'>
+                                <h1 className='mb-4 text-4xl font-medium text-white'>{item.title}</h1>
                                 <p className='font-medium font-montserrat mb-7'>{item.genre[0]} ‎ ‎ ‎ ‎ ‎ {item.genre[1]}</p>
-                                <p className='status font-montserrat mb-2'>{item.status}</p>
+                                <p className='mb-2 status font-montserrat'>{item.status}</p>
                                 <p className='release-date font-montserrat'>{item.release_date}</p>
                             </div>
                         </div>
